@@ -1,0 +1,46 @@
+.flower {
+  max-width: 350px;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.flower h2 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.flower button {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.flower button:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+.emoji {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 15px;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}

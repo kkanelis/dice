@@ -1,0 +1,46 @@
+.dice {
+  max-width: 350px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.dice h2 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.dice button {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 18px;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dice button:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+.dice img {
+  margin-top: 25px;
+  width: 120px;
+  height: 120px;
+  transition: transform 0.3s ease;
+}
+
+.dice img:hover {
+  transform: rotate(15deg);
+}
